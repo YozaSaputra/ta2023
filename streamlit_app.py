@@ -30,6 +30,13 @@ data = pd.read_csv("customer_shopping_data.csv")
 # Display the DataFrame in the app
 #st.dataframe(data)
 
-code = '''def hello():
-    print("Hello, Streamlit!")'''
+code = '''
+import pandas as pd
+import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import datetime as dt
+'''
 st.code(code, language='python')
