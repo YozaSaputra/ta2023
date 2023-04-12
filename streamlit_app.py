@@ -47,3 +47,5 @@ data.head(5)
 '''
 
 st.code(code2, language='python')
+
+st.dataframe(data)
