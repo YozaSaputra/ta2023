@@ -11,9 +11,9 @@ st.write("""
 ## Analisis Tren Transaksi Pembelanjaan di Istanbul Periode 2021-2023
 
 #### Kelompok Lima:
-- #### Sonia Epifany Sandah
-- #### Sugih Gumilar
-- #### Yoza Saputra Utama
+#### - Sonia Epifany Sandah
+#### - Sugih Gumilar
+#### - Yoza Saputra Utama
 
 #### [Dataset](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset)
 
