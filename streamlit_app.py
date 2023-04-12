@@ -10,6 +10,7 @@ st.write("""
 Hello *world!*
 """)
 
-df = pd.read_csv("./ta2023/customer_shopping_data.csv")
-#st.line_chart(df)
-df.head()
+# Read the CSV file into a DataFrame
+data = pd.read_csv("customer_shopping_data.csv")
+# Display the DataFrame in the app
+st.dataframe(data)
