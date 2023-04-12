@@ -6,7 +6,7 @@ import streamlit as st
 
 
 st.write("""
-# <center> Analisis Trend Transaksi Pembelanjaan di Istanbul Periode 2021-2023 </center>
+# Analisis Trend Transaksi Pembelanjaan di Istanbul Periode 2021-2023
 
 ### Kelompok Lima:
 - ### Sonia Epifany Sandah
