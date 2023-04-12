@@ -11,4 +11,5 @@ Hello *world!*
 """)
 
 df = pd.read_csv("./ta2023/customer_shopping_data.csv")
-st.line_chart(df)
+#st.line_chart(df)
+df.head()
