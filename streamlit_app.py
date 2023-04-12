@@ -10,5 +10,5 @@ st.write("""
 Hello *world!*
 """)
 
-df = pd.read_csv("./customer_shopping_data.csv")
+df = pd.read_csv("./ta2023/customer_shopping_data.csv")
 st.line_chart(df)
