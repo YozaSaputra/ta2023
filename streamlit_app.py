@@ -39,11 +39,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime as dt
 '''
-st.code1(code, language='python')
+st.code(code1, language='python')
 
 code2 = '''
 data = pd.read_csv('customer_shopping_data.csv')
 data.head(5)
 '''
 
-st.code2(code, language='python')
+st.code(code2, language='python')
