@@ -6,8 +6,14 @@ import streamlit as st
 
 
 st.write("""
-# MY first app ubah
-Hello *world!*
+# <center> Analisis Trend Transaksi Pembelanjaan di Istanbul Periode 2021-2023 </center>
+
+### Kelompok Lima:
+- ### Sonia Epifany Sandah
+- ### Sugih Gumilar
+- ### Yoza Saputra Utama
+
+## [Dataset](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset)
 """)
 
 # Read the CSV file into a DataFrame
