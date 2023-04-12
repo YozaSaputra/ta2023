@@ -9,6 +9,7 @@ import streamlit as st
 
 st.write("""
 # Analisis Tren Transaksi Pembelanjaan di Istanbul Periode 2021-2023
+
 ### Kelompok Lima:
 - ### Sonia Epifany Sandah
 - ### Sugih Gumilar
