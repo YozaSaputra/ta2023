@@ -30,7 +30,7 @@ data = pd.read_csv("customer_shopping_data.csv")
 # Display the DataFrame in the app
 #st.dataframe(data)
 
-code = '''
+code1 = '''
 import pandas as pd
 import numpy as np
 import warnings
@@ -39,4 +39,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime as dt
 '''
-st.code(code, language='python')
+st.code1(code, language='python')
+
+code2 = '''
+data = pd.read_csv('customer_shopping_data.csv')
+data.head(5)
+'''
+
+st.code2(code, language='python')
