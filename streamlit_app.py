@@ -29,3 +29,5 @@ st.write("""
 data = pd.read_csv("customer_shopping_data.csv")
 # Display the DataFrame in the app
 #st.dataframe(data)
+
+data.head(5)
