@@ -30,4 +30,6 @@ data = pd.read_csv("customer_shopping_data.csv")
 # Display the DataFrame in the app
 #st.dataframe(data)
 
-st.code(body, language="python", line_numbers=False)
+code = '''def hello():
+    print("Hello, Streamlit!")'''
+st.code(code, language='python')
